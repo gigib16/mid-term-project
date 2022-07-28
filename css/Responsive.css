@@ -1,0 +1,94 @@
+@media (max-width: 768px){
+    :root{
+        font-size: 65%;
+    }
+    header{
+        padding: 0
+    }
+    .logo{
+        padding-left: 1em;
+    }
+    .navbar-collapse{
+        background: #C8C8C8
+    }
+    .navbar__btn__container{
+        display: none;
+    }    
+    .navbar-toggler{
+        border: none;
+        padding: 2em;
+        border-radius: 0;
+    }
+    .navbar-toggler:focus{
+        background: #C8C8C8;
+
+    }
+    .navbar-toggler-icon{
+        color: black;
+    }
+    .hero__container{
+        justify-content: center;
+        text-align: center;
+    }
+    .hero__text__container{
+        width: 100%;
+        padding: 1em;
+    }
+    .card{
+        display: none;
+    }
+    .partner{
+        padding: 1em;
+    }
+    .projects{
+        text-align: center;
+    }
+    .section__head{
+        font-size: 3em;
+    }
+    .section__card{
+        width: 30em;
+        height: 35em;
+    }
+    .section__card h3{
+        font-size: 1.8em
+    }
+    .section__card p{}
+    .section__card button{}
+
+    .projects__container{
+        justify-content: center;
+    }
+    .form__btn{
+        width: 100%;
+    }
+    .textfield__container{
+        width: 100%;
+    }
+    .emoji{
+        display:none;
+    }
+    .testimonial{
+        text-align: center;
+        padding: 2em 3em;
+    }
+    .testimonial__container{
+        /* justify-content: center; */
+
+    }
+    .services{
+        text-align: center;
+    }
+    .services__container{
+        justify-content: center;
+    }
+    .form__btn{
+        min-height: 4em;
+    }
+    .footer__container{
+        justify-content: center
+    }
+    .footer__content{
+        text-align: center;
+    }
+}
